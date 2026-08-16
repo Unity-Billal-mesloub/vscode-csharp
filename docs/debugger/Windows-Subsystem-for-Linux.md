@@ -108,4 +108,4 @@ Notes:
 ## Also see
 [Configuring C# Launch.json](../../debugger-launchjson.md)
 
-[C++ debugging in WSL with VSCode C++ Extensions.](https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/Debugger/gdb/Windows%20Subsystem%20for%20Linux.md)
+[C++ debugging in WSL with VSCode C++ Extensions.](https://github.com/Unity-Billal-mesloub/vscode-cpptools/blob/main/Documentation/Debugger/gdb/Windows%20Subsystem%20for%20Linux.md)
