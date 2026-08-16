@@ -23,7 +23,7 @@ Before we get to a list of troubleshooting steps, lets first enumerate a few kno
 
 The first step in troubleshooting this problem is to see if this problem also happens is a terminal/shell. After you have launched a terminal or shell, type in `which dotnet`.
 
-If `which dotnet` produces a PATH, then the .NET SDK was able to successfully modify the PATH, but VS Code isn't picking it up. VS Code attempts to scrape the environment by launching the default shell under the covers. But this process can be fragile. You can attempt to work around this by starting VS Code from your Terminal. Alternatively, you can attempt to debug VS Code to understand what is going wrong -- at this time at least, the function to debug is [`getUnixShellEnvironment`](https://github.com/microsoft/vscode/blob/ab10e26096a5494b68bc709a405a0dddeb227e0b/src/vs/code/node/shellEnv.ts#L13). Lastly, you could manually add a symbolic link from within a directory which is on the PATH in all processes to wherever `dotnet` is installed (see below for instructions).
+If `which dotnet` produces a PATH, then the .NET SDK was able to successfully modify the PATH, but VS Code isn't picking it up. VS Code attempts to scrape the environment by launching the default shell under the covers. But this process can be fragile. You can attempt to work around this by starting VS Code from your Terminal. Alternatively, you can attempt to debug VS Code to understand what is going wrong -- at this time at least, the function to debug is [`getUnixShellEnvironment`](https://github.com/Unity-Billal-mesloub/vscode/blob/ab10e26096a5494b68bc709a405a0dddeb227e0b/src/vs/code/node/shellEnv.ts#L13). Lastly, you could manually add a symbolic link from within a directory which is on the PATH in all processes to wherever `dotnet` is installed (see below for instructions).
 
 If `which dotnet` produces no output, then this means the .NET SDK wasn't able to modify the `PATH` or add a symbolic link, or the .NET SDK for your platform doesn't do so. You can fix this by either adding a symbolic link yourself (example: `sudo ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet` where `/usr/share/dotnet/dotnet` should be replaced with wherever the .NET SDK installer for your platform was installed to), or by modifying your `PATH` manually (example: modify ~/.bashrc add add something like `export PATH=$PATH:/new/directory/here`).
 
@@ -59,7 +59,7 @@ In 64-bit environments the .NET SDK will fail to be discovered if the 32-bit dot
 
 #### Linux Snap instructions
 
-The Linux Snap packages for the .NET Core SDK, by default, will not create the `dotnet` link. To do so, run `sudo snap alias dotnet-sdk.dotnet dotnet`. More information about this can be found in [the .NET Core SDK release notes](https://github.com/dotnet/core/blob/master/release-notes/3.1/3.1.0/3.1.0-install-instructions.md#install-using-snap).
+The Linux Snap packages for the .NET Core SDK, by default, will not create the `dotnet` link. To do so, run `sudo snap alias dotnet-sdk.dotnet dotnet`. More information about this can be found in [the .NET Core SDK release notes](https://github.com/Unity-Billal-mesloub/core/blob/main/release-notes/3.1/3.1.0/3.1.0-install-instructions.md#install-using-snap).
 
 Note that, as of the time of this writing, there are also other incompatibilities between this extension and the .NET Core SDK Snap package beyond the `dotnet` PATH issue. This incompatibility may result in:
 
@@ -67,8 +67,6 @@ Note that, as of the time of this writing, there are also other incompatibilitie
 > It was not possible to find any installed .NET Core SDKs
 > Did you mean to run .NET Core SDK commands? Install a .NET Core SDK from:
 > 	https://aka.ms/dotnet-download
-
-More information about this problem can be found in [dotnet/cli#12110](https://github.com/dotnet/cli/issues/12110).
 
 Another possible workaround is to add the following to `~/.omnisharp/omnisharp.json`.
 
