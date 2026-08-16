@@ -1,5 +1,5 @@
 ## Background
-On Linux, .NET Core depends on libicu for data about locales and international settings. There is a special [Globalization Invariant Mode](https://github.com/dotnet/corefx/blob/master/Documentation/architecture/globalization-invariant-mode.md) that can be enabled to remove this dependency, but Invariant Mode isn't enabled by default. When Invariant Mode is NOT enabled, and when a compatible libicu cannot be found, the process running .NET Core (probably the debugger if you are reading this article) will abruptly exit.
+On Linux, .NET Core depends on libicu for data about locales and international settings. There is a special Globalization Invariant Mode that can be enabled to remove this dependency, but Invariant Mode isn't enabled by default. When Invariant Mode is NOT enabled, and when a compatible libicu cannot be found, the process running .NET Core (probably the debugger if you are reading this article) will abruptly exit.
 
 To enable invariant mode, add the following environment variable: `export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1`.
 
