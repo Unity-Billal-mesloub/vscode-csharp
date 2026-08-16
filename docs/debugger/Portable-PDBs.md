@@ -1,7 +1,7 @@
 ## Summary
 .NET Core introduces a new symbol file (PDB) format - portable PDBs. Unlike traditional PDBs which are Windows-only, portable PDBs can be created and read on all platforms. The new .NET debugger for Visual Studio Code only supports this new portable format. Portable PDBs can be generated both from [C# VS projects (.csproj)](#csproj) and [project.json projects](#net-cli-projects-projectjson), and they can be used regardless of what version of .NET the project targets.
 
-More information about portable PDBs can be found on the [.NET team's GitHub page](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md).
+More information about portable PDBs can be found on the [.NET team's GitHub page](https://github.com/Unity-Billal-mesloub/core/blob/main/Documentation/diagnostics/portable_pdb.md).
 
 ## How to Generate Portable PDBs
 ### .csproj 
