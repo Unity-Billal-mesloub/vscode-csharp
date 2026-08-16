@@ -2,7 +2,7 @@ The extension supports remote debugging netcoreapp 2.1 or newer on `linux-arm`. 
 
 As of netcoreapp 3.0, `linux-arm64` is also supported. When following these instructions for arm64, be sure to replace `linux-arm` with `linux-arm64`.
 
-If you run into any problems, please file an [issue](https://github.com/dotnet/vscode-csharp) and note in the text that this is related to `linux-arm`.
+If you run into any problems, please file an [issue](https://github.com/Unity-Billal-mesloub/vscode-csharp) and note in the text that this is related to `linux-arm`.
 
 Choose **one** of the following deployment methods:
 
@@ -27,7 +27,7 @@ Framework-dependent deployments are when the application is deployed without a c
 
 ## Install prerequisites
 * [General prerequisites](#prerequisites)
-* On the target computer, install a `linux-arm` build of the .NET Core runtime. As of this editing the latest 2.1 version can be found at https://dotnetcli.blob.core.windows.net/dotnet/Runtime/2.1.3/dotnet-runtime-2.1.3-linux-arm.tar.gz. See the [arm docker file](https://github.com/dotnet/dotnet-docker/blob/master/2.1/runtime/stretch-slim/arm32v7/Dockerfile) to find the latest version number.
+* On the target computer, install a `linux-arm` build of the .NET Core runtime. As of this editing the latest 2.1 version can be found at https://dotnetcli.blob.core.windows.net/dotnet/Runtime/2.1.3/dotnet-runtime-2.1.3-linux-arm.tar.gz. See the [arm docker file](https://github.com/Unity-Billal-mesloub/dotnet-docker/blob/main/2.1/runtime/stretch-slim/arm32v7/Dockerfile) to find the latest version number.
 
     *Example (installs to ~/dotnet):*
     ```
