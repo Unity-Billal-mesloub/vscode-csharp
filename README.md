@@ -1,5 +1,5 @@
 ## C# for Visual Studio Code
-A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode) that provides rich language support for C# and is shipped along with [C# Dev Kit][csdevkitextension]. Powered by a Language Server Protocol (LSP) server, this extension integrates with open source components like [Roslyn](https://github.com/dotnet/roslyn) and [Razor](https://github.com/dotnet/razor) to provide rich type information and a faster, more reliable C# experience.
+A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode) that provides rich language support for C# and is shipped along with [C# Dev Kit][csdevkitextension]. Powered by a Language Server Protocol (LSP) server, this extension integrates with open source components like [Roslyn](https://github.com/Unity-Billal-mesloub/roslyn) to provide rich type information and a faster, more reliable C# experience.
 
 ## Recommended Install
 While it is possible to use the C# extension as a standalone extension, we highly recommend using [C# Dev Kit][csdevkitextension].
@@ -30,20 +30,7 @@ For more information you can:
 If you don’t want to take advantage of the great Language Server features, you can revert back to using OmniSharp by going to the Extension settings and setting `dotnet.server.useOmnisharp` to true. Next, uninstall or disable C# Dev Kit. Finally, restart VS Code for this to take effect.
 
 ## Found a Bug?
-To file a new issue, follow the instructions at https://github.com/dotnet/vscode-csharp/blob/main/SUPPORT.md.
-
-## Contributing
-
-### License
-
-Copyright © .NET Foundation, and contributors.
-
-The Microsoft C# extension is subject to [these license terms](https://github.com/dotnet/vscode-csharp/blob/main/RuntimeLicenses/license.txt).
-The source code to this extension is available on [https://github.com/dotnet/vscode-csharp](https://github.com/dotnet/vscode-csharp) and licensed under the [MIT license](LICENSE.txt).
-
-### Contribution License Agreement
-
-By signing the [CLA](https://cla.dotnetfoundation.org/), the community is free to use your contribution to [.NET Foundation](http://www.dotnetfoundation.org) projects.
+To file a new issue, follow the instructions at https://github.com/Unity-Billal-mesloub/vscode-csharp/blob/main/SUPPORT.md.
 
 ### .NET Foundation
 
@@ -56,10 +43,10 @@ This project is supported by the [.NET Foundation](http://www.dotnetfoundation.o
 Check out the FAQs before filing a question. 
 -->
 
-[Provide feedback](https://github.com/dotnet/vscode-csharp/issues)
+[Provide feedback](https://github.com/Unity-Billal-mesloub/vscode-csharp/issues)
 File questions, issues, or feature requests for the extension.
 
-[Known issues](https://github.com/dotnet/vscode-csharp/issues)
+[Known issues](https://github.com/Unity-Billal-mesloub/vscode-csharp/issues)
 If someone has already filed an issue that encompasses your feedback, please leave a 👍 or 👎 reaction on the issue to upvote or downvote it to help us prioritize the issue.
 
 [Quick survey](https://www.research.net/r/8KGJ9V8?o=[o_value]&v=[v_value]&m=[m_value])
