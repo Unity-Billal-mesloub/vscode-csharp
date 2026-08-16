@@ -2,13 +2,13 @@
 
 ## How to get help
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the [existing issues](https://github.com/dotnet/vscode-csharp/issues) before filing new issues to avoid duplicates. For new issues, file your bug or feature request as a new Issue.
+This project uses GitHub Issues to track bugs and feature requests. Please search the [existing issues](https://github.com/Unity-Billal-mesloub/vscode-csharp/issues) before filing new issues to avoid duplicates. For new issues, file your bug or feature request as a new Issue.
 
 This repository tracks issues related to the C# extension.  Any issues related to the C# editing experience, Roslyn language server and other basic C# functionality should be filed here (regardless of if you're using C# Dev Kit or not).
 
-For C# Dev Kit only features such as the Solution Explorer, Test Window, etc, please see https://github.com/microsoft/vscode-dotnettools/blob/main/SUPPORT.md
+For C# Dev Kit only features such as the Solution Explorer, Test Window, etc, please see https://github.com/Unity-Billal-mesloub/vscode-dotnettools/blob/main/SUPPORT.md
 
-For help and questions about using this project, please see the [README](https://github.com/dotnet/vscode-csharp/blob/main/README.md).
+For help and questions about using this project, please see the [README](https://github.com/Unity-Billal-mesloub/vscode-csharp/blob/main/README.md).
 
 ### How to file an issue
 
