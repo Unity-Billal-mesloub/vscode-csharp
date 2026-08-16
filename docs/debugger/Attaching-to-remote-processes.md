@@ -8,7 +8,7 @@ In this section, we will walk through the steps for configuring SSH. If you are 
 
 #### Visual Studio Code (client) machine setup
 
-There is no way to pop up credential UI with VS Code, so we need a scriptable way to authenticate. One option is to provide the password on the command line, but obviously there are some security concerns with passing an unencrypted password around so much. A more secure option is to use SSH keys. To do this, open a bash prompt and run the following commands (note: if you are on Windows you can find better instructions [here](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio#ssh)). Since you want to store your key file without a password, make sure to keep it in a secure location.
+There is no way to pop up credential UI with VS Code, so we need a scriptable way to authenticate. One option is to provide the password on the command line, but obviously there are some security concerns with passing an unencrypted password around so much. A more secure option is to use SSH keys. To do this, open a bash prompt and run the following commands (note: if you are on Windows you can find better instructions [here](https://github.com/Unity-Billal-mesloub/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio#ssh)). Since you want to store your key file without a password, make sure to keep it in a secure location.
 
 ```
 mkdir ~/.ssh
